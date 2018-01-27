@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    tools:context="com.nasirbashak007.guessthenumber.MainActivity">
+
+    <TextView
+        android:id="@+id/textup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to
+    Guess The Number Game"
+        android:textAlignment="center"
+        android:textColor="#1416ff"
+        android:layout_marginBottom="40dp"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/texttwo"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Range"
+        android:textColor="#ffb428"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_marginLeft="15dp"
+        android:id="@+id/editNumber1"
+        android:layout_width="150dp"
+        android:layout_height="85dp"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:hint="min"
+        android:textColorHint="#ffff"
+        android:inputType="number"
+        android:textSize="45dp"
+        android:padding="16dp"
+        android:shadowColor="#423011"
+        android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_marginLeft="50dp"
+            android:id="@+id/editNumber2"
+            android:layout_width="150dp"
+            android:layout_height="85dp"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textAlignment="center"
+            android:hint="max"
+            android:inputType="number"
+            android:textSize="45dp"
+            android:padding="16dp"
+            android:shadowColor="#423011"
+            android:layout_marginBottom="10dp"/>
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_height="55dp"
+        android:onClick="goToSecond"
+        android:background="@drawable/button_go"
+        android:text="Go" />
+    <Button
+        android:text="EXIT"
+        android:background="#fff"
+        android:textStyle="bold"
+        android:textColor="#ff0907"
+        android:onClick="exitActivity"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/back_last3"
+    tools:context="com.nasirbashak007.guessthenumber.Main3Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="hai"
+        android:textColor="#FF07EF0B"
+        android:padding="16dp"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/text_G"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_width="40dp"
+            android:background="@drawable/button_gameover"
+            android:layout_height="100dp"
+            android:text="G" />
+
+        <Button
+            android:id="@+id/text_A"
+            android:text="A"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:padding="5dp"
+            android:background="@drawable/button_gameover2"
+            android:layout_width="40dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/text_M"
+            android:text="M"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:background="@drawable/button_gameover"
+            android:padding="5dp"
+            android:layout_width="40dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/text_E"
+            android:text="E"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:padding="5dp"
+            android:background="@drawable/button_gameover2"
+            android:layout_width="40dp"
+            android:layout_height="100dp" />
+        <Button
+            android:layout_marginLeft="25dp"
+            android:id="@+id/text_O"
+            android:text="O"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:background="@drawable/button_gameover"
+            android:padding="5dp"
+            android:layout_width="40dp"
+            android:layout_height="100dp" />
+        <Button
+            android:id="@+id/text_V"
+            android:text="V"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:background="@drawable/button_gameover2"
+            android:layout_width="40dp"
+            android:layout_height="100dp" />
+        <Button
+            android:id="@+id/text_EE"
+            android:text="E"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:padding="5dp"
+            android:background="@drawable/button_gameover"
+            android:layout_width="40dp"
+            android:layout_height="100dp" />
+        <Button
+            android:id="@+id/text_R"
+            android:text="R"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:background="@drawable/button_gameover2"
+            android:layout_width="40dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="callSecondActivity"
+        android:background="@drawable/button_continue"
+        android:padding="16dp"
+        android:text="Continue" />
+
+</LinearLayout>

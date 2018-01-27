@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back2"
+    tools:context="com.nasirbashak007.guessthenumber.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:textColorLink="#0AF70E"
+        android:layout_gravity="top"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#1b31ff"
+        android:textSize="45dp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FF034DEC"
+            android:layout_marginBottom="30dp"
+            android:text="Guess your Number"
+            android:textSize="35dp" />
+
+        <EditText
+            android:id="@+id/editnumber"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter the Number"
+            android:inputType="number" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+            android:layout_marginTop="16dp"
+            android:onClick="ClaculateTheResult"
+            android:text="Check The Result"
+            android:background="@drawable/button_result"
+            tools:ignore="OnClick" />
+
+
+</LinearLayout>
